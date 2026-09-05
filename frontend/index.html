@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Dashboard de gestão da Mercearia Gomes"
+    >
+
+    <title>Mercearia Gomes — Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         CABEÇALHO
+    ====================================================== -->
+
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <!-- LOGO -->
+
+            <a href="#" class="logo" aria-label="Mercearia Gomes">
+
+                <span class="logo-icone">
+                    G
+                </span>
+
+                <span class="logo-nome">
+                    Mercearia <strong>Gomes</strong>
+                </span>
+
+            </a>
+
+
+            <!-- MENU -->
+
+            <nav
+                class="menu"
+                aria-label="Menu principal"
+            >
+
+                <a
+                    href="#"
+                    class="menu-link ativo"
+                >
+                    <span>⌂</span>
+                    Início
+                </a>
+
+                <a
+                    href="#produtos"
+                    class="menu-link"
+                >
+                    <span>📦</span>
+                    Produtos
+                </a>
+
+                <a
+                    href="#vendas"
+                    class="menu-link"
+                >
+                    <span>💰</span>
+                    Vendas
+                </a>
+
+                <a
+                    href="#clientes"
+                    class="menu-link"
+                >
+                    <span>👥</span>
+                    Clientes
+                </a>
+
+            </nav>
+
+
+            <!-- PERFIL -->
+
+            <div class="perfil">
+
+                <span class="perfil-avatar">
+                    G
+                </span>
+
+                <div class="perfil-info">
+
+                    <strong>
+                        Gomes
+                    </strong>
+
+                    <small>
+                        Administrador
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+    ====================================================== -->
+
+    <main class="container conteudo">
+
+
+        <!-- =================================================
+             INTRODUÇÃO
+        ================================================== -->
+
+        <section class="introducao">
+
+            <div>
+
+                <span class="rotulo">
+                    PAINEL DE CONTROLE
+                </span>
+
+                <h1>
+                    Olá, Gomes! 👋
+                </h1>
+
+                <p>
+                    Confira o resumo da sua Mercearia Gomes hoje.
+                </p>
+
+            </div>
+
+
+            <!-- DATA -->
+
+            <div class="data-atual">
+
+                <span>
+                    HOJE
+                </span>
+
+                <time datetime="2026-09-04">
+                    04 de setembro de 2026
+                </time>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CARDS PRINCIPAIS
+        ================================================== -->
+
+        <section
+            class="cards"
+            aria-label="Indicadores principais"
+        >
+
+
+            <!-- =================================================
+                 PRODUTOS
+            ================================================== -->
+
+            <article
+                class="card card-produtos"
+                id="produtos"
+            >
+
+                <div class="card-topo">
+
+                    <div class="card-icone">
+                        📦
+                    </div>
+
+                    <span class="card-seta">
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <div class="card-conteudo">
+
+                    <span class="card-label">
+                        ESTOQUE
+                    </span>
+
+                    <h2>
+                        Produtos em estoque
+                    </h2>
+
+                    <strong class="valor">
+                        128
+                        <small>
+                            produtos
+                        </small>
+                    </strong>
+
+                    <p class="card-status">
+
+                        <span>
+                            ●
+                        </span>
+
+                        Estoque disponível
+
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 VENDAS
+            ================================================== -->
+
+            <article
+                class="card card-vendas"
+                id="vendas"
+            >
+
+                <div class="card-topo">
+
+                    <div class="card-icone">
+                        💰
+                    </div>
+
+                    <span class="card-seta">
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <div class="card-conteudo">
+
+                    <span class="card-label">
+                        FATURAMENTO
+                    </span>
+
+                    <h2>
+                        Vendas hoje
+                    </h2>
+
+                    <strong class="valor valor-menor">
+                        R$ 1.250,00
+                    </strong>
+
+                    <p class="card-status">
+
+                        <span>
+                            ↑
+                        </span>
+
+                        Movimento do dia
+
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 CLIENTES
+            ================================================== -->
+
+            <article
+                class="card card-clientes"
+                id="clientes"
+            >
+
+                <div class="card-topo">
+
+                    <div class="card-icone">
+                        👥
+                    </div>
+
+                    <span class="card-seta">
+                        ↗
+                    </span>
+
+                </div>
+
+
+                <div class="card-conteudo">
+
+                    <span class="card-label">
+                        CADASTROS
+                    </span>
+
+                    <h2>
+                        Clientes cadastrados
+                    </h2>
+
+                    <strong class="valor">
+                        86
+                        <small>
+                            clientes
+                        </small>
+                    </strong>
+
+                    <p class="card-status">
+
+                        <span>
+                            ●
+                        </span>
+
+                        Base de clientes
+
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- =================================================
+             RESUMO
+        ================================================== -->
+
+        <section
+            class="resumo"
+            aria-label="Resumo da movimentação"
+        >
+
+
+            <!-- MOVIMENTAÇÃO -->
+
+            <div class="resumo-item">
+
+                <span class="resumo-icone">
+                    📊
+                </span>
+
+                <div>
+
+                    <small>
+                        Movimentação
+                    </small>
+
+                    <strong>
+                        R$ 1.250,00
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- PRODUTOS -->
+
+            <div class="resumo-item">
+
+                <span class="resumo-icone">
+                    🛒
+                </span>
+
+                <div>
+
+                    <small>
+                        Produtos
+                    </small>
+
+                    <strong>
+                        128 disponíveis
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- CLIENTES -->
+
+            <div class="resumo-item">
+
+                <span class="resumo-icone">
+                    ⭐
+                </span>
+
+                <div>
+
+                    <small>
+                        Clientes ativos
+                    </small>
+
+                    <strong>
+                        86 clientes
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTAS A RECEBER
+        ================================================== -->
+
+        <section
+            class="contas"
+            aria-labelledby="titulo-contas"
+        >
+
+
+            <!-- CABEÇALHO DA ÁREA FINANCEIRA -->
+
+            <header class="contas-topo">
+
+                <div>
+
+                    <span class="rotulo">
+                        FINANCEIRO
+                    </span>
+
+                    <h2 id="titulo-contas">
+                        Contas a receber
+                    </h2>
+
+                    <p>
+                        Acompanhe os pagamentos pendentes
+                        da Mercearia Gomes.
+                    </p>
+
+                </div>
+
+
+                <!-- TOTAL -->
+
+                <div class="total">
+
+                    <span>
+                        Total em aberto
+                    </span>
+
+                    <strong>
+                        R$ 435,50
+                    </strong>
+
+                    <small>
+                        3 contas pendentes
+                    </small>
+
+                </div>
+
+            </header>
+
+
+            <!-- =================================================
+                 TABELA
+            ================================================== -->
+
+            <div class="tabela-wrapper">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Cliente
+                            </th>
+
+                            <th>
+                                Valor
+                            </th>
+
+                            <th>
+                                Data limite
+                            </th>
+
+                            <th>
+                                Status
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+
+                        <!-- =================================================
+                             JOÃO SILVA
+                        ================================================== -->
+
+                        <tr>
+
+                            <td data-label="Cliente">
+
+                                <div class="cliente">
+
+                                    <span class="avatar">
+                                        JS
+                                    </span>
+
+                                    <div>
+
+                                        <strong>
+                                            João Silva
+                                        </strong>
+
+                                        <small>
+                                            Cliente cadastrado
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+
+                            <td data-label="Valor">
+
+                                <strong>
+                                    R$ 120,00
+                                </strong>
+
+                            </td>
+
+
+                            <td data-label="Data limite">
+
+                                10/09/2026
+
+                            </td>
+
+
+                            <td data-label="Status">
+
+                                <span class="status proximo">
+
+                                    <span>
+                                        ●
+                                    </span>
+
+                                    Próxima
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+
+                        <!-- =================================================
+                             MARIA SANTOS
+                        ================================================== -->
+
+                        <tr>
+
+                            <td data-label="Cliente">
+
+                                <div class="cliente">
+
+                                    <span class="avatar avatar-roxo">
+                                        MS
+                                    </span>
+
+                                    <div>
+
+                                        <strong>
+                                            Maria Santos
+                                        </strong>
+
+                                        <small>
+                                            Cliente cadastrada
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+
+                            <td data-label="Valor">
+
+                                <strong>
+                                    R$ 85,50
+                                </strong>
+
+                            </td>
+
+
+                            <td data-label="Data limite">
+
+                                12/09/2026
+
+                            </td>
+
+
+                            <td data-label="Status">
+
+                                <span class="status em-dia">
+
+                                    <span>
+                                        ●
+                                    </span>
+
+                                    Em dia
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+
+                        <!-- =================================================
+                             PEDRO SOUZA
+                        ================================================== -->
+
+                        <tr>
+
+                            <td data-label="Cliente">
+
+                                <div class="cliente">
+
+                                    <span class="avatar avatar-azul">
+                                        PS
+                                    </span>
+
+                                    <div>
+
+                                        <strong>
+                                            Pedro Souza
+                                        </strong>
+
+                                        <small>
+                                            Cliente cadastrado
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+
+                            <td data-label="Valor">
+
+                                <strong>
+                                    R$ 230,00
+                                </strong>
+
+                            </td>
+
+
+                            <td data-label="Data limite">
+
+                                15/09/2026
+
+                            </td>
+
+
+                            <td data-label="Status">
+
+                                <span class="status em-dia">
+
+                                    <span>
+                                        ●
+                                    </span>
+
+                                    Em dia
+
+                                </span>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         RODAPÉ
+    ====================================================== -->
+
+    <footer class="rodape">
+
+        <p>
+
+            © 2026
+
+            <strong>
+                Mercearia Gomes
+            </strong>
+
+            <span>
+                •
+            </span>
+
+            Gestão simples para o seu negócio.
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
